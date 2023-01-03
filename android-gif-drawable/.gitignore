@@ -1,0 +1,19 @@
+# Java class files
+*.class
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+#IntelliJ IDEA
+.idea
+*.iml
+
+#Gradle
+.gradle
+build
+
+signing.properties
+
+.externalNativeBuild/
+# Project exclude paths
+/android-gif-drawable/.cxx/
