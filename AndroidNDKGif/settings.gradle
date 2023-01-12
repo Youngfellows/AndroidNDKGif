@@ -13,5 +13,5 @@ dependencyResolutionManagement {
     }
 }
 rootProject.name = "AndroidNDKGif"
-include ':app'
 include ':androidndkgif'
+include ':test'
