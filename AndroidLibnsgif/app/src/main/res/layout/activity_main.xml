@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/activity_horizontal_margin"
+    tools:context="com.hzy.gifshow.MainActivity">
+
+    <com.hzy.libnsgif.NsGifView
+        android:id="@+id/demo_gif_view1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <com.hzy.libnsgif.NsGifView
+        android:id="@+id/demo_gif_view2"
+        android:layout_marginTop="@dimen/activity_horizontal_margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <com.hzy.libnsgif.NsGifView
+        android:id="@+id/demo_gif_view3"
+        android:layout_marginTop="@dimen/activity_horizontal_margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
