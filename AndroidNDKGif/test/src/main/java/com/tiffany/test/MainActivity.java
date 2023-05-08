@@ -140,7 +140,9 @@ public class MainActivity extends AppCompatActivity {
 
     private void encodeGIF() throws IOException {
         String dstFile = "result.gif";
-        final String filePath = Environment.getExternalStorageDirectory() + File.separator + dstFile;
+        //final String filePath = Environment.getExternalStorageDirectory() + File.separator + dstFile;
+        final String filePath =  getFilesDir().getAbsolutePath() + File.separator + dstFile;
+        Log.i(TAG, "encodeGIF:: filePath=" + filePath);
         int width = 50;
         int height = 50;
         int delayMs = 100;
